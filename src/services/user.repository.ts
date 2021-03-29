@@ -70,7 +70,7 @@ export class UserRepository {
 })().catch(err => {
     console.error(err);
 }).then(() => {
-    console.log('done');
+    console.log('update users is done');
 });
 
 export interface User {
