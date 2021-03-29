@@ -1,3 +1,0 @@
-[submodule "src/nora-common"]
-	path = src/nora-common
-	url = https://github.com/andrei-tatar/nora-common.git
