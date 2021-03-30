@@ -21,6 +21,7 @@ export class HomeController extends Controller {
 
     @Http.get()
     async get() {
+        console.log(this.request);
         if (!this.request.token) {
             return this.response.redirect('/login');
         }
